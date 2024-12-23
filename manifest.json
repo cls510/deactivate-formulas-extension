@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ID Processor",
+    "version": "1.0",
+    "description": "Processes a list of IDs and performs actions on each corresponding page.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
